@@ -1,0 +1,156 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Seção Hero */
+  .hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background-color: #d35400;
+  }
+  
+  /* Cardápio */
+  .menu {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .cardapio-item {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cardapio-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .cardapio-item h3 {
+    margin: 15px 0;
+    font-size: 1.8em;
+  }
+  
+  .cardapio-item p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .cardapio-item span {
+    font-size: 1.5em;
+    color: #e67e22;
+    margin-bottom: 15px;
+  }
+  
+  .cardapio-item button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cardapio-item button:hover {
+    background-color: #d35400;
+  }
+  
+  /* Seções */
+  .sobre, .contato {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .sobre h2, .contato h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
